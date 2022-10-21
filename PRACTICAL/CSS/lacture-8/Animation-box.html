@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation-block</title>
+    <style>
+        body{
+            background-color: lightgreen;
+        }
+        div{
+            height: 200px;
+            width: 200px;
+            border: 10px double black;
+            border-radius: 50%;
+            background-color: goldenrod;
+            position: absolute;
+            animation: circle;
+            animation-direction: normal;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes circle{
+            0%{
+                top: opx;
+                left: 0px;
+                background-color: red;
+            }
+            25%{
+                top: 0px;
+                left: 500px;
+                background-color: blue;
+            }
+            50%{
+                top: 300px;
+                left: 500px;
+                background-color: chartreuse;
+            }
+            75%{
+                top: 300px;
+                left: 0px;
+                background-color: fuchsia;
+            }
+            100%{
+                top: 0px;
+                left: 0px;
+                background-color: darkgreen;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>

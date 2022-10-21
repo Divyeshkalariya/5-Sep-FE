@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            font-size: 180px;
+            font-weight: bolder;
+            animation:SHIV;
+            animation-duration: 2s;
+            animation-direction: normal;
+            animation-iteration-count: infinite;
+            position: absolute;
+            top: 100px;
+            left: 500px;
+        }
+        @keyframes SHIV{
+            0%{
+                color: aliceblue;
+            }
+            20%{
+                color: goldenrod;
+                text-shadow: 2px 2px 2px gray;
+            }
+            40%{
+                color: yellow;
+                text-shadow: 4px 4px 4px gray;
+            }
+            60%{
+                color: orange;
+                text-shadow: 6px 6px 6px gray;
+            }
+            80%{
+                color: orangered;
+                text-shadow: ;
+                text-shadow: 8px 8px 8px gray;
+            }
+            100%{
+                color: red;
+                text-shadow: 10px 10px 10px gray;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>SHIV</h1>
+</body>
+</html>
