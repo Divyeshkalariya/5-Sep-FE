@@ -1,0 +1,33 @@
+.main{
+    display: flex;
+}
+.main .col1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: aqua;
+}
+.main .col2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:gold;
+}
+.main .col3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:crimson;
+}
+.main .col4{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:chocolate;
+}
+.main .col5{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:bisque
+}

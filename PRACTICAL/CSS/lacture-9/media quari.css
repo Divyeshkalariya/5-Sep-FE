@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.main .col1{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    border: 2px solid whitesmoke;
+    overflow: hidden;
+}
+.main .col2{
+    height: 150px;
+    width: 150px;
+    background-color: purple;
+    border: 2px solid whitesmoke;
+    overflow: scroll;
+}
+.main .col3{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    border: 2px solid whitesmoke;
+    overflow: hidden;
+}
+.main .col4{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border: 2px solid whitesmoke;
+    overflow: scroll;
+}
+.main .col5{
+    height: 150px;
+    width: 150px;
+    background-color:springgreen;
+    border: 2px solid whitesmoke;
+    overflow: hidden;
+}
+.main .col6{
+    height: 150px;
+    width: 150px;
+    background-color:mediumblue;
+    border: 2px solid whitesmoke;
+    overflow: scroll;
+}
+@media(max-width:576px){ 
+    .main{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .main .col1{
+        height: 150px;
+        width: 50%;
+    }
+    .main .col2{
+        height: 150px;
+        width: 50%;
+    }
+    .main .col3{
+        height: 150px;
+        width: 50%;
+    }
+    .main .col4{
+        height: 150px;
+        width: 50%;
+    }
+    .main .col5{
+        height: 150px;
+        width: 50%;
+    }
+    .main .col6{
+        height: 150px;
+        width: 50%;
+    }
+}
+ 
+
