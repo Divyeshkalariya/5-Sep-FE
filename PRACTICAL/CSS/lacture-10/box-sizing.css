@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+}
+.main .a1{
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    background-color: antiquewhite;
+}
+.main .a2{
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+.main .a3{
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    background-color: antiquewhite;
+}
+.main .a4{
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    background-color: antiquewhite;
+}
