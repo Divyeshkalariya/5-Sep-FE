@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    text-shadow: 6px 7px 10px;
+    font-size: 40px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+a::before{
+    content: "";
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    left: 0px;
+    bottom: 54px;
+    background-image: linear-gradient(orange,blue,purple,green);
+    opacity: 0.5;
+}

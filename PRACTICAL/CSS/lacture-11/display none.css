@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.col1{
+    background-color:skyblue;
+    text-align: center;
+    padding: 30px;
+}
+.col1 p{
+    padding: 20px;
+}
+.col2{
+    background-color:aqua;
+    text-align: center;
+    padding: 30px;
+    display: none;
+}
+.col2 p{
+    padding: 20px;
+}
+.col3{
+    background-color:aquamarine;
+    text-align: center;
+    padding: 30px;
+}
+.col3 p{
+    padding: 20px;
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.col1{
+    text-align: center;
+    padding: 20px;
+    background-color: lightgreen;
+}
+.col1 p{
+    padding: 20px;
+}
+.col2{
+    background-color: lightsalmon;
+    text-align: center;
+    padding: 20px;
+    visibility: hidden;
+}
+.col2 p{
+    padding: 20px;
+}
+.col3{
+    background-color: lightseagreen;
+    text-align: center;
+    padding: 20px;
+}
+.col3 p{
+    padding: 20px;
+}

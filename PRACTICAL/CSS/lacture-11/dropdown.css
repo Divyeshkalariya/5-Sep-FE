@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 100px;
+    margin: 30px;
+}
+.main button{
+    width: 100%;
+}
+.main:hover .col1{
+    display: block;
+} 
+.main .col1{
+    text-align: center;
+    display:block;
+    display: none;
+    font-weight: bold;
+    color: black;
+}
+.main .col1 a{
+    text-decoration: none;
+}
+.main .col1 a:hover{
+    color: red;
+}
