@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+}
+div{
+    margin: 100px;
+}
+h1{
+    position: relative;
+    color:brown;
+    font-size: 50px;
+}
+h1::after{
+    content: "";
+    width: 10px;
+    height:5px;
+    display: block;
+    position: absolute;
+    left:0px;
+    top: 54px;
+    background-color: black;
+    transition: 4s;
+}
+h1:hover::after{
+    width: 25%;
+}

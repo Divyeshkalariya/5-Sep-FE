@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+body{
+    background-color: black;
+}
+section{
+    height: 500px;
+    width:100%
+}
+.col1{
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    transform: skew(10deg, 20deg);
+    margin: 100px;
+    display: inline-block;
+    margin-top: 200px;
+    margin-left:400px;
+}
+.col2{
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    transform: skew(-10deg, -20deg);
+    margin: 100px;
+    display: inline-block;
+    margin-top: 200px;
+    /* margin-right:200px; */
+}

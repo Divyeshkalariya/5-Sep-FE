@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div{
+    margin: 100px;
+}
+h1::after{
+    content: " Until you Succeed ";
+    background-color: aqua;
+    border-radius: 10px;
+}

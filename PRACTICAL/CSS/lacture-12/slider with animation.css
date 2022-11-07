@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.col1{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 5px 5px 3px red;
+    padding-top: 50px;
+}
+.col2{
+    height: 400px;
+    width: 600px;
+    background-image: url('cars-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:50px;
+    margin-left: 400px;
+    animation: slider;
+    animation-direction: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes slider{
+    10%{
+        background-image: url('car-1.jpg');
+        border-radius: 2px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    20%{
+        background-image: url('car-2.jpg');
+        border-radius: 4px;
+        box-shadow: 6px 6px 6px 6px black;
+    }
+    30%{
+        background-image: url('car-3.jpg');
+        border-radius: 6px;
+        box-shadow: 9px 9px 9px 9px black;
+    }
+    40%{
+        background-image: url('car-4.jpg');
+        border-radius: 8px;
+        box-shadow: 12px 12px 12px 12px black;
+    }
+    50%{
+        background-image: url('car-5.jpg');
+        border-radius: 10px;
+        box-shadow: 15px 15px 15px 15px black;
+    }
+    60%{
+        background-image: url('trucks-1.jpg');
+        border-radius: 10px;
+        box-shadow: 15px 15px 15px 15px black;
+    }
+    70%{
+        background-image: url('trucks-2.jpg');
+        border-radius: 8px;
+        box-shadow: 12px 12px 12px 12px black;
+    }
+    80%{
+        background-image: url('trucks-3.jpg');
+        border-radius: 6px;
+        box-shadow: 9px 9px 9px 9px black;
+    }
+    90%{
+        background-image: url('trucks-4.jpg');
+        border-radius: 4px;
+        box-shadow: 6px 6px 6px 6px black;
+    }
+    100%{
+        background-image: url('trucks-5.jpg');
+        border-radius: 2px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+}

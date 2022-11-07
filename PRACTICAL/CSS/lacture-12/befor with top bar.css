@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+div{
+    margin: 100px;
+}
+h1{
+    position: relative;
+    color: whitesmoke;
+}
+h1::before{
+    content: "";
+    height: 5px;
+    width: 2px;
+    background-color:blue;
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    transition: 5s;
+    display: block;
+}
+h1:hover::before{
+    width: 20.5%;
+}
