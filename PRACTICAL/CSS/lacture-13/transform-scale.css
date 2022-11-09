@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.col1{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    transform:scalex(2.5);
+    margin-left:580px;
+    margin-top: 20px;
+}
+.col2{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    transform: scaley(2);
+    margin-left: 300px;
+}
+.col3{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    transform: scaley(2);
+    margin-left: 850px;
+    margin-top: -200px;
+}
+.col4{
+    height: 150px;
+    width: 200px;
+    background-color: black;
+    transform: scalex(12.7);
+    margin-top: 40px;
+}

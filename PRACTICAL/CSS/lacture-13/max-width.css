@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div{
+    height: 300px;
+    /* width: 300px; */
+    max-width: 600px;
+    border: 1px solid black;
+    overflow: scroll;
+    margin: 100px;
+}
