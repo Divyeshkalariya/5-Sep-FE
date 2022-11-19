@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+    padding: 20px;
+    grid-row-gap: 20px;
+}
+.col1{
+    background-color: lightblue;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+.col2{
+    background-color:lightcoral;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+.col3{
+    background-color:lightcyan;
+    border: 2px solid black;
+    padding: 10px;
+}
+.col4{
+    background-color:lightgreen;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+.col5{
+    background-color:lightpink;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+.col6{
+    background-color:lightsalmon;
+    border: 2px solid black;
+    padding: 10px;
+}
+.col7{
+    background-color:lightseagreen;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+.col8{
+    background-color:lightskyblue;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+.col9{
+    background-color:lightslategray;
+    border: 2px solid black;
+    padding: 10px;
+}
+@media(max-width:992px){
+    .col1{
+        border: 0px solid black;
+    }
+    .col3{
+        border: 0px solid black;
+    }
+    .col5{
+        border: 0px solid black;
+    }
+    .col7{
+        border: 0px solid black;
+    }
+    .col9{
+        border: 0px solid black;
+    }
+}
+@media(max-width:768px){
+    .col2{
+        border: 0px solid black;
+    }
+    .col4{
+        border: 0px solid black;
+    }
+    .col6{
+        border: 0px solid black;
+    }
+    .col8{
+        border: 0px solid black;
+    }
+}
+@media(max-width:576px){
+    .main{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .col1{
+        border: 0px solid black;
+    }
+    .col4{
+        border: 0px solid black;
+    }
+    .col5{
+        border: 0px solid black;
+    }
+    .col8{
+        border: 0px solid black;
+    }
+    .col9{
+        border: 0px solid black;
+    }
+}
+@media(max-width:480px){
+    .main{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .col2{
+        border: 0px solid black;
+    }
+    .col3{
+        border: 0px solid black;
+    }
+    .col6{
+        border: 0px solid black;
+    }
+    .col7{
+        border: 0px solid black;
+    }
+}
