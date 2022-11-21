@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 4px 7px 10px green;
+}
+ul{
+    margin:100px 200px;
+    list-style-image: url('5210072_marketing_mobile_social media_icon.png');
+}
+ul li{
+    margin: 20px;
+    font-size: 30px;
+    color: crimson;
+}

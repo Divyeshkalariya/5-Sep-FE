@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+}
+img{
+    position: absolute;
+    float: left;
+    z-index: -1 ;
+}
+.col1{
+    /* border: 2px solid green; */
+    width: 40%;
+    transform: translate(800px,170px);
+}
+.col1 h1{
+    font-size: 50px;
+    color: white;
+    padding-bottom: 20px;
+}
+.col1 p{
+    color: white;
+}
+.col1 p::first-letter{
+    font-size: 40px;
+    color: orangered;
+}

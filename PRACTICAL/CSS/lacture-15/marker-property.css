@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+::marker{
+    font-size: 50px;
+    color: orangered;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px 8px orange;
+}
+ul{
+    margin:100px 200px;
+}
+ul li{
+    list-style:Gujarati;
+    font-size: 25px;
+    color: blue;
+}
+
+

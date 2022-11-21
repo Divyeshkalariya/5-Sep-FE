@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+    border-bottom: 2px solid greenyellow;
+    position: sticky;
+    background-color:aliceblue;
+    top: 0px;
+}
+h1{
+    margin: 10px 0px 0px 50px;
+}
+h1::before{
+    content: "Number " counter(Trees) " = ";
+    counter-increment: Trees;
+}
+body{
+    counter-reset:Trees;
+}

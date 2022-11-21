@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin: 20px;
+}
+span{
+    vertical-align: text-top;
+    font-size: 20px;
+}
+b{
+    vertical-align: text-bottom;
+    font-size: 15px;
+}
+i{
+    vertical-align: baseline;
+    font-size: 15px;
+}
+u{
+    vertical-align: top;
+    font-size: 50px;
+}

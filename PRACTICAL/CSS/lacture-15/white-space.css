@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.p1{
+    white-space: nowrap;
+    padding: 30px;
+}
+.p2{
+    padding: 50px;
+}
+.p3{
+    white-space: nowrap;
+    padding: 30px;
+}
