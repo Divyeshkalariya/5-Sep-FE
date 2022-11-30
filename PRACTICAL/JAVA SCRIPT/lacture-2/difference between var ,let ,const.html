@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difference between var,let and const</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    
+</body>
+<script>
+    var a="Nature";                                                                                     // vareable decleration and value assign
+    var b=" lover";                                                                                     // vareable decleration and value assign
+    var c=a+b;                                                                                          // logic
+    document.write(c +'<br>');
+     a="god is "                                                                       //variable re-decleration value re-assign  
+     b="great"                                                                         //variable re-decleration value re-assign
+     c=a+b;                                                                                             // logic
+    document.write(c + '<br>')
+    document.write('<hr>')
+ 
+    let p=10                                                                                            //vareable decleration and value assign
+    let q=20                                                                                            //vareable decleration and value assign
+    let r=p+q                                                                                           //logic
+    document.write(r +'<br>')
+     p=50                                                                              //Vareable not re-decleration but value re-assign
+     q=40                                                                              //Vareable not re-decleration but value re-assign
+     r=p+q                                                                                              // logic
+    document.write(r +'<br>')
+    document.write('<hr>')
+
+    const x=50                                                                                          //vareable decleration and value assign
+    const y=30                                                                                          //vareable decleration and value assign
+    const z=x+y                                                                                         //logic
+    document.write(z + '<br>')
+    // const x=7                                                                       //Vareable not re-decleration and  not-reassign value
+    // const y=70                                                                      //Vareable not re-decleration and not-reassign value
+    // const z=x+y                                                                                      // logic
+    document.write(z+'<br>')
+
+</script>
+</html>
