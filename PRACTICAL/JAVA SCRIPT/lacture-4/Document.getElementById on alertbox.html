@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document.getElementById on alertbox</title>
+    <style>
+        #btn1,#btn2,#btn3,#btn4{
+            padding:5px 20px;
+            width: 200px;
+            background-color: lightcyan;
+            border: transparent;
+        }
+        #btn1:hover,#btn2:hover,#btn3:hover,#btn4:hover{
+            background-color: brown;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <button type="button" id="btn1" onclick="ad()">Addition</button>
+    <button type="button" id="btn2" onclick="subs()">Substraction</button>
+    <button type="button" id="btn3" onclick="mu()">Multiplication</button>
+    <button type="button" id="btn4" onclick="div()">Divison</button>
+</body>
+    <script>
+        function ad(){
+            var a=parseInt(prompt("Enter a value : "));
+            var b=parseInt(prompt("Enter b value : "));
+            var c=a+b;
+            alert('addition : '+c);
+        }
+        function subs(){
+            var a=parseInt(prompt("Enter a value : "));
+            var b=parseInt(prompt("Enter b value : "));
+            var c=a-b;
+            alert('substraction : '+c);
+        }
+        function mu(){
+            var a=parseInt(prompt("Enter a value :"));
+            var b=parseInt(prompt("Enter b value : "));
+            var c=a*b;  
+            alert('multiplication : '+c);
+        }
+        function div(){
+            var a=parseInt(prompt("Enter a value : "));
+            var b=parseInt(prompt("Enter b value : "));
+            var c=a/b;  
+            alert('divison : '+c);
+        }
+    </script>
+</html>
