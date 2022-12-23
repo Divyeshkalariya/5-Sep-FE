@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User input</title>
+    <style>
+        button{
+            margin:20% 42%;
+            height: 50px;
+            width: 200px;
+            font-size: 40px;
+        }
+        button:hover{
+            background-color: crimson;
+            border-radius: 50px;
+            border: transparent;
+            color: white;
+        }
+
+    </style>
+</head>
+<button type="button" onclick="nm()">click</button>
+<body>
+    <script>
+        function nm(){
+            var name=prompt("Enter your name : ");
+            alert("your name is : "+name);
+        }
+    </script>
+</body>
+</html>
