@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    border: 20px solid black;
+    margin: 10%;
+    padding: 20px;
+    -webkit-border-image: url("image/border\ image.png") round 10%;
+    -moz-border-image: url("image/border\ image.png") round 10%;
+    -o-border-image: url("image/border\ image.png") round 10%;
+    border-image: url("image/border\ image.png") round 10%;
+}
