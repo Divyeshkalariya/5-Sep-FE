@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-1{
+    height: 300px;
+    width: 400px;
+}
+
+.box-1 img{
+    height: inherit;
+    width: inherit;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    filter: blur(1px);
+}
+
+.box-2{
+    height: 300px;
+    width: 400px;
+    margin: 5%;
+}
+
+.box-2 img{
+    height: inherit;
+    width: inherit;
+    filter:brightness(2);
+    -webkit-filter:brightness(2);
+    -moz-filter:brightness(2);
+    -o-filter:brightness(2);
+}
+
+.box-3{
+    height: 300px;
+    width: 400px;
+}
+
+.box-3 img{
+    height: inherit;
+    width: inherit;
+    filter:contrast(3);
+    -webkit-filter:contrast(3);
+    -moz-filter:contrast(3);
+    -o-filter:contrast(3);
+}
+
+.box-4{
+    height: 300px;
+    width: 400px;
+    margin: 5%;
+}
+
+.box-4 img{
+    height: inherit;
+    width: inherit;
+    -webkit-filter:drop-shadow(5px 20px 10px green);
+    -moz-filter:drop-shadow(5px 20px 10px green);
+    -o-filter:drop-shadow(5px 20px 10px green);
+    filter:drop-shadow(5px 20px 10px green);
+}
+
+.box-5{
+    height: 300px;
+    width: 400px;
+}
+
+.box-5 img{
+    height: inherit;
+    width: inherit;
+    -webkit-filter:grayscale(90%);
+    -moz-filter:grayscale(90%);
+    -o-filter:grayscale(90%);
+    filter:grayscale(90%);
+}
+
+.box-6{
+    height: 300px;
+    width: 400px;
+    margin: 5%;
+}
+
+.box-6 img{
+    height: inherit;
+    width: inherit;
+    -webkit-filter:hue-rotate(240deg);
+    -moz-filter:hue-rotate(240deg);
+    -o-filter:hue-rotate(240deg);
+    filter:hue-rotate(240deg);
+}
+
+.box-7{
+    height: 300px;
+    width: 400px;
+}
+
+.box-7 img{
+    height: inherit;
+    width: inherit;
+    filter:invert(70%);
+    -webkit-filter:invert(70%);
+    -moz-filter:invert(70%);
+    -o-filter:invert(70%);
+}
+
+.box-8{
+    height: 300px;
+    width: 400px;
+    margin: 5%;
+}
+
+.box-8 img{
+    height: inherit;
+    width: inherit;
+    -webkit-filter:saturate(70%);
+    -moz-filter:saturate(70%);
+    -o-filter:saturate(70%);
+    filter:saturate(70%);
+}
+
+.box-9{
+    height: 300px;
+    width: 400px;
+}
+
+.box-9 img{
+    height: inherit;
+    width: inherit;
+    -webkit-filter:sepia(0.4);
+    -moz-filter:sepia(0.4);
+    -o-filter:sepia(0.4);
+    filter:sepia(0.4);
+}
+
+.box-10{
+    height: 300px;
+    width: 400px;
+    margin: 5%;
+}
+
+.box-10 img{
+    height: inherit;
+    width: inherit;
+    -webkit-filter:initial;
+    -o-filter:initial;
+    -moz-filter:initial;
+    filter:initial;
+}

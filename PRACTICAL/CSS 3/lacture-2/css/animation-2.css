@@ -1,0 +1,12 @@
+@import url(keyframe.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+    animation: colorchange 5s infinite;
+    animation-delay: 3s;
+}

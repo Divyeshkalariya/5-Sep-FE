@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    text-align: center;
+    background: -webkit-radial-gradient(left,red 40%,black 50%) ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15%;
+}
+.left{
+    width: 70%;
+    height: 100%;
+    padding: 50px;
+}
+.left h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: digos;
+}
+.left p{
+    font-family: digos;
+}
+
+@font-face{
+    src: url('../black-diamond/BlackDiamond-Regular.ttf');
+    font-family: digos;
+}
+
+.right{
+    width: 30%;
+    height: 100%;
+}
+.right img{
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}

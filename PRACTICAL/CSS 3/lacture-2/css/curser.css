@@ -1,0 +1,43 @@
+button{
+    margin: 1% auto;
+}
+
+.container-1 button{
+    cursor: alias;
+}
+
+.container-2 button{
+    cursor:all-scroll;
+}
+
+.container-3 button{
+    cursor:col-resize;
+}
+
+.container-4 button{
+    cursor:context-menu;
+}
+
+.container-5 button{
+    cursor:crosshair;
+}
+
+.container-6 button{
+    cursor:ew-resize;
+}
+
+.container-7 button{
+    cursor:grab;
+}
+
+.container-8 button{
+    cursor:nesw-resize;
+}
+
+.container-9 button{
+    cursor:row-resize;
+}
+
+.container-10 button{
+    cursor:s-resize;
+}

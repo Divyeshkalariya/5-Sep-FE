@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 200px;
+    width: 400px;
+    background-image: url("../image/scorpio-n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 2s ease all;
+}
+
+.box:hover{
+    background-image: url('../image/range-rover.jpg');
+}
