@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquary in body</title>
+</head>
+<body>
+    
+    <!-- jquary called -->
+    <script src="js/jquery-3.6.3.min.js"></script>
+
+    <button>click</button>
+
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                var prt=prompt("Enter your name");
+                alert("Your name is " + prt);
+            });
+        });
+    </script>
+
+</body>
+</html>
