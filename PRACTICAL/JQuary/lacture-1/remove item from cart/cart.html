@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" type="text/css" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- jquary cdn -->
+    <script src="jquery-3.6.3.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            $("#delet").click(function(){
+            
+                $("#dtable").remove();
+            
+            })
+        
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Urben</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">COFFEE</a></li>
+                <li><a href="">EQUIPMENT</a></li>
+                <li><a href="">KNOWLEDGG</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-cart"></i>1</a></li>
+            </ul>
+        </nav>
+    </header>
+    <table class="booking" align="center" style="padding: 20px;" id="dtable">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Menu</th>
+                <th>Photo</th>
+                <th>Select Qty</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr align="center">
+                <td>26</td>
+                <td>Espresso</td>
+                <td><img src="espresso.jpg" alt="" height="100px" width="100px"></td>
+                <td><input type="number" min="1" max="10" id="qty" value="1" onchange="crt()"
+                        style="padding-left: 50px;"></td>
+                <td><input type="text" name="price" id="price" value="100" style="width: 20%; padding-left: 18px;"
+                        readonly></td>
+                <td><a href="#" id="delet" class="fa fa-trash"
+                        style="color:red; font-size: 25px; text-decoration: none;" value="reset form"></a></td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <h2
+                        style="background-color: red; width: 30%; height: 40px; padding-top: 7px; border-radius: 5px; text-align:center;margin-left: 35%;">
+                        Subtotal of Trems Rs.<label id="tot">100</label></h2>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="cart.js"></script>
+</body>
+
+</html>
