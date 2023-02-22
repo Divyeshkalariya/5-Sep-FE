@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slidetoggle effect</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .box{
+            width: 70%;
+            margin-left:15% ;
+            margin-top: 5%;
+            padding: 2%;
+            background-color: darkkhaki;
+            color: darkred;
+            text-align: justify;
+        }
+        button{
+            margin-top: 5%;
+        }
+    </style>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $(".box").slideToggle("slow");
+            });
+        });
+    </script>
+</head>
+<body>
+    
+    <div class="box">
+        <h1>slide toggle using jquary</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur dolorum, modi facilis adipisci ullam cupiditate qui eveniet quia expedita ad! Reprehenderit deserunt ea architecto ipsum quia dicta quo facere sunt dolorum libero obcaecati dignissimos corrupti in molestiae, quasi laboriosam suscipit minima, molestias aliquid non at. Eum possimus voluptatum amet impedit quaerat exercitationem minus pariatur quidem? Vitae, earum. Adipisci animi non, fugiat inventore dignissimos ex nemo expedita distinctio corrupti voluptatum ab pariatur optio exercitationem cumque! Aut eum eligendi illo quod magnam corrupti reprehenderit ipsam voluptatem animi vitae! Nostrum commodi, qui illo fugit sunt id totam blanditiis quod ipsum harum possimus illum?</p>
+    </div>
+
+    <button type="button">slidetoggle</button>
+
+</body>
+</html>

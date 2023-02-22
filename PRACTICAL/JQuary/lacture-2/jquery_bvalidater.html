@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bvalidater</title>
+    <!-- jquery js file -->
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <!-- jquery bvalidator -->
+    <script src="js/jquery.bvalidator.min.js"></script>
+    <script src="js/default.min.js"></script>
+    <script src="js/red.js"></script>
+    <link rel="stylesheet" href="css/red.css">
+
+    <script>
+        $(document).ready(function(){
+            $("#frm").bValidator(); 
+        })
+    </script>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            text-align: center;
+            padding: 2%;
+            background-color: blueviolet;
+            border-radius: 10px;
+            box-shadow: 8px 8px 10px 10px black;
+        }
+        form input{
+            padding: 3%;
+        }
+        textarea{
+            padding: 3%;
+        }
+        ::placeholder{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    
+    <form id="frm" action="https://www.flipkart.com/mobile-apps">
+        <h1>Regirster Now</h1>
+        <input type="text" id="name" placeholder=" Enter name *" data-bvalidator="required,alpha"><br><br>
+
+        <input type="text" id="email" placeholder="Enter email address *" data-bvalidator="required,email"><br><br>
+        
+        <input type="text" id="password" placeholder="Enter password *"data-bvalidator="required,digit,minlen[5],maxlen[10]"><br><br>
+
+        Male<input type="radio" value="male">
+        Female<input type="radio" value="female"><br><br>
+
+        <textarea cols="30" rows="10"  placeholder="Address *" style="width: 80%;"></textarea ><br><br>
+        
+        <input type="submit" value="regirster">
+    </form>
+
+</body>
+</html>

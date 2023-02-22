@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider using jquery</title>
+    <style>
+        #slider{
+            width: 80%;
+            margin-top: 10%;
+            margin-left: 10%;
+            height: 400px;
+        }
+        #slider img{
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+        }
+    </style>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/cycle.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // $("#slider").cycle("turnLeft")
+            // $("#slider").cycle("turnRight");
+            // $("#slider").cycle("zoom");
+            $("#slider").cycle("shuffle");
+            // $("#slider").cycle({
+            //     fx:"zoom",
+            //     syne:false,
+            //     delay:2000
+            // })
+        });
+    </script>
+</head>
+<body>
+    
+<div id="slider">
+    <img src="https://cdn.pixabay.com/photo/2016/09/21/04/46/barley-field-1684052_960_720.jpg" alt="morning">
+    <img src="https://cdn.pixabay.com/photo/2020/05/26/10/41/sunset-5222626_960_720.jpg" alt="afternoon">
+    <img src="https://cdn.pixabay.com/photo/2017/01/14/13/59/castelmezzano-1979546_960_720.jpg" alt="evening">
+    <img src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547__340.jpg" alt="night">
+</div>
+
+</body>
+</html>
