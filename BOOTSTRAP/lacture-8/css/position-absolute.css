@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.second{
+    height: 400px;
+    background-size: cover;
+    background-image: url("../images/images.jpg");
+}
