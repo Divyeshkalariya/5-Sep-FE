@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+
+.navbar-brand{
+    font-size: 40px !important;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Train One', cursive;
+    color: skyblue !important;
+    text-decoration: none !important;
+}
+.nav-link{
+    text-decoration: none !important;
+}
+.nav-link:hover{
+    color: skyblue !important;
+}
+.navbar-collapse{
+    margin-left: 50%;
+}
+@media only screen and (max-width:992px) {
+    .navbar{
+        border-bottom: 5px solid skyblue;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .nav-item{
+        font-size: 20px !important;
+    }    
+    .navbar-collapse{
+        margin-left:47% !important;
+    }
+}
+@media only screen and (max-width:480px){
+    .navbar{
+        border-bottom: 3px solid skyblue;
+    }
+    .navbar-brand{
+        font-size:22px !important ;
+    }
+    .nav-item{
+        font-size: 12px !important;
+    }    
+    .navbar-collapse{
+        margin-left:10% !important;
+    }
+}  
+/* slider Section */
+
+.carousel-inner{
+    height: auto !important;
+}
+
+
+/* Services Section Styles */
+#services{
+    height: auto;
+}
+.ourservice{
+    position: relative;
+    transition: 1s;
+}
+.ourservice h2{
+    position: relative;
+    /* border: 2px solid red; */
+    font-size: 70px !important;
+    color: rgba(135, 207, 235, 0.2);
+    font-family: 'Kanit', sans-serif;
+}
+.ourservice span{
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    text-shadow: 0px 0px 10px black;
+    font-size: 30px !important;
+    color: skyblue;
+    font-family: 'Kanit', sans-serif;
+}
+.service-box{
+    margin-bottom: 2%;
+}
+.card:hover .card-body i{
+    color: darkorange !important;
+}
+@media only screen and (max-width:992px) {
+    .ourservice span{
+        left: 38% !important;
+    }
+}
+@media only screen and (max-width:768px) {
+    .ourservice span{
+        left: 35% !important;
+    }
+}
+@media only screen and (max-width:576px) {
+    .ourservice{
+        margin: 5% 0 !important;
+    }
+    .ourservice h2{
+        font-size: 50px !important;
+    }
+    .ourservice span{
+        top: 25% !important;
+        font-size: 20px !important;
+        left: 40% !important;
+    }
+}
+
+
+/* About Section Styles */
+#about{
+    height: auto;
+}
+.aboutus{
+    position: relative;
+    transition: 1s;
+}
+.aboutus h2{
+    position: relative;
+    font-size: 70px !important;
+    color: rgba(135, 207, 235, 0.3);
+    font-family: 'Kanit', sans-serif;
+}
+.aboutus span{
+    position: absolute;
+    top: 25%;
+    left: 44%;
+    text-shadow: 0px 0px 10px black;
+    font-size: 30px !important;
+    color: skyblue;
+    font-family: 'Kanit', sans-serif;
+}
+
+#about h2 {
+    font-size: 36px;
+    /* margin-bottom: 40px; */
+    text-align: center;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 28px;
+}
+#about a{
+    text-decoration: none;
+    padding: 1% 5%;
+    border-radius: 4px;
+}
+#about a:hover{
+    background-color:  skyblue;
+    color: black;
+}
+@media only screen and (max-width:992px) {
+    .aboutus span{
+        left: 40% !important;
+    }
+    .about-image{
+        margin-top: 18% !important;
+    }
+}
+@media only screen and (max-width:768px) {
+    .about-image{
+        margin-top: 0% !important;
+    }
+    .aboutus span{
+        top: 25% !important;
+        left: 40% !important;
+    }
+}
+@media only screen and (max-width:576px) {
+    .aboutus{
+        margin: 5% 0 !important;
+    }
+    .aboutus h2{
+        font-size: 60px !important;
+    }
+    .aboutus span{
+        top: 30% !important;
+        font-size: 20px !important;
+        left: 40% !important;
+    }
+    .right-about{
+        padding-bottom: 5% !important;
+    }
+}
+
+/* featured clients */
+#clients{
+    height: auto;
+}
+.client{
+    position: relative;
+    transition: 1s;
+}
+.client h2{
+    position: relative;
+    font-size: 70px !important;
+    color: rgba(135, 207, 235, 0.3);
+    font-family:'Kanit', sans-serif;
+}
+.client span{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    text-shadow: 0px 0px 10px black;
+    font-size: 30px !important;
+    color: skyblue;
+    font-family: 'Kanit', sans-serif;
+}
+.featured-clients{
+    border:  10px double skyblue;
+    border-radius: 20px;
+}
+.featured-clients img{
+    height: 150px;
+}
+.featured-clients button{
+    background-color: transparent !important;
+    color: white;
+    padding: 1% 10%;
+}
+
+@media only screen and (max-width:992px) {
+    .client span{
+        left: 35% !important;
+    }
+}
+@media only screen and (max-width:768px) {
+    .client h2{
+        font-size: 60px !important;
+        margin-top:3%;
+        margin-bottom: 3%;
+    }
+    .client span{
+        top: 33% !important;
+        left: 32% !important;
+    }
+}
+@media only screen and (max-width:576px) {
+    .client{
+        margin: 5% 0 !important;
+    }
+    .client h2{
+        font-size: 60px !important;
+    }
+    .client span{
+        top: 39% !important;
+        font-size: 20px !important;
+        left: 35% !important;
+    }
+    .featured-clients{
+        width: 90% !important;
+        margin-left: 5% !important;
+        margin-bottom: 5%;
+        
+    }
+    .featured-clients .inner-container button{
+        margin-bottom: 3% !important;
+    }
+}
+@media only screen and (max-width:480px){
+    .client h2{
+        font-size: 45px !important;
+    }
+    .client span{
+        top: 34% !important;
+    }
+}
+
+
+/* Contact Section */
+
+#contact {
+    background-image: url("../images/home-page/contact-us-section/contact-us.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.contactus{
+    position: relative;
+    transition: 1s;
+}
+.contactus h2{
+    position: relative;
+    font-size: 70px !important;
+    color: rgba(135, 207, 235, 0.3);
+    font-family: 'Kanit', sans-serif;
+}
+.contactus span{
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    text-shadow: 0px 0px 10px black;
+    font-size: 30px !important;
+    color: skyblue;
+    font-family: 'Kanit', sans-serif;
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 5% 8%;
+    background-color: rgba(245, 245, 245, 0.382);
+}
+
+#contact label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#contact button {
+    background-color: #337ab7;
+    color: #fff;
+    font-size: 20px;
+    padding:2% 5%;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #fff;
+    color: #337ab7;
+}
+@media only screen and (max-width:992px) {
+    .contactus span{
+        left: 38% !important;
+    }
+    #contact p{
+        color: white !important;
+    }
+}
+@media only screen and (max-width:768px) {
+    .contactus span{
+        top: 20% !important;
+        left: 35% !important;
+    }
+    
+    #contact label {
+        font-size: 16px;
+    }
+
+    #contact input,
+    #contact textarea {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    #contact button {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+}
+@media only screen and (max-width:576px) {
+    #contact{
+        padding: 5% !important;
+    }
+    .contactus{
+        margin: 5% 0 !important;
+    }
+    .contactus h2{
+        font-size: 60px !important;
+    }
+    .contactus span{
+        top: 25% !important;
+        font-size: 20px !important;
+        left: 40% !important;
+    }
+}
+
+footer{
+    height: auto;
+}
+
+footer h3 a{
+    text-decoration: none !important;
+    color: white;
+}

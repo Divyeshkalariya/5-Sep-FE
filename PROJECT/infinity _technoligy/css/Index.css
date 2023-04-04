@@ -1,0 +1,709 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#loader{
+    height: 100vh;
+    background-image: url('../images/attachment.gif');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#webpage{
+    display: none;
+}
+.topbar{
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    text-align: center;
+    line-height:40px;
+    background-color: black;
+    position:sticky;
+    top: 0;
+}
+.topbar a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-right: 2px solid white;
+    font-family: 'Exo 2', sans-serif;
+    transition: 0.3s ease;
+}
+.topbar a:hover{
+    color: red;
+}
+
+/* header */
+
+header{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    border-bottom: 1px solid white;
+}
+.logo{
+    height: 100px;
+    width: 20%;
+    float: left;
+}
+.logo img{
+    height: 115px;
+    width: 100%;
+}
+.search{
+    height: 40%;
+    width: 80%;
+    float: left;
+}
+.search button{
+    height: 29px;
+    border: 2px solid gray;
+    cursor: pointer;
+    margin-left: 33%;
+    margin-top: 2%;
+    border-radius: 20px 0px 0px 20px;
+    padding: 2px 5px 2px 10px;
+    background-color: purple;
+}
+.search input{
+    height: 30px;
+    width: 30%;
+    border-radius: 0px 20px 20px 0px;
+    padding-left: 10%;
+    border: 2px solid gray;
+}
+
+/* navbar */
+
+nav{
+    height: 30%;
+    width: 70%;
+    float: right;
+}
+nav ul{
+    margin-right: 350px;
+    width: 100%;
+    text-align: center;
+    margin-top: 2.2%;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-top:2% !important;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: bold;
+    color: black;
+    background-image: linear-gradient(white,gray);
+    transition: 1s;
+}
+nav ul li a:hover{
+    background-image: linear-gradient(orangered,orangered);
+    color: white;
+}
+
+/* service section */
+
+#service{
+    height:auto;
+    padding: 2%;
+    width: 100%;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+}
+#service #div1{
+    height: auto;
+    width: 35%;
+    border: 1px solid black;
+    background-image:url('../images/backgroundimage.jpg');
+    border-radius: 10px;
+    transition: 1s;
+    /* overflow: hidden; */
+}
+#service #div1:hover{
+    background-image: linear-gradient(rgba(255, 255, 255, 0),orangered, url('backgroundimage.jpg'));
+    box-shadow: 5px 5px 8px 5px;
+
+}
+#service #div1 h1{
+    color: lime;
+    margin-top: 5%;
+    margin-left: 30%;
+    list-style: square;
+}
+#service #div1 p{
+    padding: 5%;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#service .sub2 {
+    flex-basis: 60%;
+    padding: 2%;
+}
+
+#service .sub2 div{
+    margin-right: 5%;
+    text-align: justify;
+    position: absolute;
+    display: none;
+}
+
+#service .sub2 .none{
+    display: block;
+}
+
+#service .sub2 div h2{
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+
+#service .sub2 div p {
+    font-size: 20px;
+}
+
+#service .sub2 div a {
+    float: right;
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#service .sup2 div:not(:first-of-type){
+    display: none;
+}
+
+/* project section */
+
+#project{
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding: 0 2%;
+}
+#project .col1{
+    height: 630px;
+    width: 65%;
+    padding-right: 2%;
+    /* border: 2px solid black; */
+
+}
+#project .col1 h1{
+    padding-top: 2%;
+    font-size: 40px;
+    font-style: italic;
+    border-bottom: 3px solid gray;
+}
+#project .col1 p{
+    padding-top: 2%;
+    text-align: justify;
+}
+#project .col2{
+    height:630px;
+    width:35%;
+    border: 2px solid red;
+    background-color: orangered;
+}
+#project .col2 h1{
+    font-style: italic;
+    padding:2%;
+    background-color: white;
+}
+#project .col2 .image img{
+    margin: 5% 20%;
+    height: 300px;
+    width: 60%;
+}
+#project .col2 .image img:hover{
+    box-shadow: 5px 5px 10px 5px;
+}
+
+#project .col2 .banner img{
+    height:120px;
+    width: 80%;
+    margin: 5% 10%;
+    border-radius: 20px;
+}
+#project .col2 .banner img:hover{
+    box-shadow: 5px 5px 10px 5px;
+}
+
+/* footer */
+
+footer{
+    height: 130px;
+    width:100%;
+    border-top: 2px solid black;
+    background-color: rgb(37, 37, 37);
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+footer span{
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+footer .f1{
+    height: 30px;
+    width: 100%;
+}
+footer .f1 ul{
+    text-align: center;
+}
+footer .f1 ul li{
+    display: inline-block;
+    margin-left: 20px;
+} 
+footer .f1 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Fira Sans', sans-serif;
+}
+footer .f2 {
+    height: 30px;
+    width: 100%;
+    margin: 5px;
+} 
+footer .f2 h3{
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+footer .f3{
+    height: 60px;
+    width: 100%;
+} 
+footer p{
+    text-align: center;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Righteous', cursive;
+}
+
+
+@media only screen and (max-width:1200px){
+
+    /* navbar */
+
+    nav ul{
+        margin-top: 2.5%;
+    }
+
+    /* service section */
+    #service #div1 #divh1{
+        margin-left:20%;
+    }
+
+    /* project section */
+    #project{
+        height: auto !important;
+    }
+
+    #project .banner img{
+        margin-left: 10% !important;
+        width: 80% !important;
+    }
+
+    #project .col2 .image img{
+        margin: 2% 20%;
+    }
+    #project .col2 .banner img{
+        margin-left:5%
+    }
+    
+}
+
+
+@media only screen and (max-width:992px){
+
+    /* header */
+
+    header{
+        height: 140px;
+        width: 100%;
+    }
+
+    /* navbar */
+
+    nav ul{
+        margin-top:2.5%;
+    }
+
+    /* service section */
+
+    #service{
+        height: auto !important;
+        width: 100%;
+    }
+    #service #div1{
+        width: 38%;
+    }
+
+    /* project section */
+
+    #project .col1{
+        height: auto !important;
+        width: 50%;
+        margin-top: 20px;
+    }
+    #project .col1 h1{
+        font-size: 20px;
+        font-style: italic;
+        border-bottom: 3px solid gray;
+    }
+    #project .col1 p{
+        padding-top: 3%;
+        font-size: 12px;
+    } 
+    #project .col2{
+        width: 50%;
+    }
+    #project .col2 .image{
+        margin-top: 5%;
+    }
+    #project .col2 .image img{
+        margin-left: 23%;
+        margin-top: 3%;
+    }
+    #project .col2 .banner img{
+        margin-left:12%;
+        border-radius: 20px;
+    }
+    #project .col2 .banner img:hover{
+        box-shadow: 5px 5px 10px 5px;
+    }
+}
+
+
+@media only screen and (max-width:768px){
+
+    /* navbar */
+
+    nav ul {
+        margin-top: 3%;
+    }
+
+    /* service section */
+
+    #service{
+        display: flex;
+        flex-direction: column;
+        height: 120vh !important;
+    }
+    #service #div1{
+        height: 300px;
+        width: 100%;
+    }
+    #service .text{
+        width: 100%;
+        color: white;
+    }
+    #service .text h1{
+        font-size: 20px;
+        margin: 20px;
+    }
+    #service .text p{
+        padding: 20px;
+        font-size: 17px;
+    }
+    #service .text a{
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        transition: 1s
+    } 
+    #service .sub2{
+        height:auto !important;
+    } 
+    #service .sup2 h2{
+        margin-top: 5% !important;
+    }
+
+    /* project section */
+
+    #project{
+        width: 100%;
+    }
+    #project .col1 h1{
+        font-size: 25px;
+    }
+    #project .col1 p{
+        font-size: 11px;
+    }
+    #project .col2 .image img{
+        margin-left: 15%;
+    }
+    #project .col2 .banner img{
+        height: 130px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    /* footer */
+
+    footer{
+        height: 100px;
+        width:100%;
+    }
+    footer span{
+        font-size: 10px;
+    }
+    footer .f1{
+        height: 30%;
+        width: 100%;
+    }
+    footer .f1 ul li a{
+        font-size: 10px;
+    }
+    footer .f2 h3{
+        font-size: 15px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (max-width:576px){
+    
+    /* navbar */
+    
+    nav ul{
+        margin-top: 5.1% !important;
+        text-align: center;
+    }
+    nav ul li{
+        display: inline-block;
+    }
+    nav ul li a{
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    /* service section */
+
+    #service{
+        height: 140vh !important;
+        width: 100%;
+        background-color: orangered;
+    }
+    #service #div1{
+        margin: 5%;
+        height: auto;
+        width: 90%;
+        border: 1px solid black;
+    }
+    #service .container{
+        border: 1px solid yellow;
+        height: 60vh;
+        width: 90%;
+        margin: 5%;
+        padding-top: 0;
+    }
+
+    /* project section */
+
+    #project{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        padding-left: 5%;
+    }
+    #project .col1{
+        width: 100%;
+        height: auto;
+    }
+    #project .col2{
+        height:auto;
+        width:98%;
+        margin-top: 5%;
+    }
+    #project .col2 .image img{
+        margin-left:20%;
+        margin-top: 5%;
+        width:60% ;
+    }
+    #project .col2 .banner{
+        height: 200px;
+    } 
+    #project .col2 .banner img{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 2%;
+        border-radius: 20px;
+    }
+    #project .col2 .banner img:hover{
+        box-shadow: 5px 5px 10px 5px;
+    }
+
+    /* footer */
+
+    footer{
+        height:auto;
+        width:100%;
+    }
+    footer span{
+        font-size: 15px;
+    }
+    footer .f1{
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+    footer .f1 ul li{
+        display: block;
+        padding: 1% 0;
+    }
+    footer .f1 ul li a{
+        font-size: 15px;
+    }
+    footer .f2 h3{
+        height: auto;
+        width: 70%;
+        line-height: 30px;
+        margin-left: 15%;
+        font-size: 15px;
+    }
+    footer p{
+        margin-top: 7%;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:480px){
+
+    /* header */
+    .search input{
+        margin-top: 7% !important;
+    }
+    .logo{
+        width: 30%;
+    }
+    .search{
+        width: 70%;
+    }
+    .search input{
+        padding-left: 5%;
+    }
+
+    /* navbar */
+
+    nav{
+        width: 70%;
+        height: auto;
+    }
+    nav ul{
+        margin-top:7.3% !important;
+    }
+    nav ul li a{
+        font-size: 9px;
+        padding: 5px 10px 5px 10px !important;
+    }
+
+    /* service section */
+
+    #service{
+        height: 160vh !important;
+        width: 100%;
+        background-color: orangered;
+    }
+
+    #service #div1{
+        height:  auto !important;
+    }
+
+    #service .sup2 div p{
+        font-size: 10px !important;
+    }
+
+    /* project section */
+
+    #project{
+        margin-left: 1%;
+    }
+
+    /* footer */
+
+    footer .f1 ul li a{
+        font-size: 10px;
+    }
+    footer .f2 h3{
+        font-size: 15px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:320px){
+
+    /* navbar */
+
+    nav{
+        width: 70%;
+        height: auto;
+    }
+    nav ul{
+        margin-top:11% !important;
+    }
+    nav ul li a{
+        font-size: 9px;
+        padding: 5px 10px 5px 10px !important;
+    }
+
+    /* service section */
+
+    #service{
+        height: 150vh;
+        width: 100%;
+        background-color: orangered;
+    }
+
+    #service #div1{
+        height:  auto !important;
+    }
+
+    #service #div1 #divh1{
+        margin-left: 15% !important;
+    }
+
+    #service #div1 #divp1{
+        font-size: 15px !important;
+    }
+
+    #service .sub2 div h2 {
+        font-size: 25px;
+    }
+
+    #service .sub2 div p {
+        font-size: 16px !important;
+    }
+
+    /* project section */
+
+    #project{
+        margin-left: 1%;
+    }
+
+    /* footer */
+
+    footer .f1 ul li a{
+        font-size: 10px;
+    }
+    footer .f2 h3{
+        font-size: 15px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+}
