@@ -1,0 +1,35 @@
+<!-- it is use to finding exception or error in javascript code-->
+
+
+
+<p id="rst"></p>
+<script>
+
+
+//syntex
+
+// try
+// {
+//     statments
+// }
+// catch(error)
+// {
+//     ststments
+// }
+
+try
+{
+    confirm("click ok to load page");
+}
+catch(error)
+{
+    document.getElementById("rst").innerHTML = error.message;
+}
+
+
+</script>
+<style>
+    body{
+        background-color: black;
+    }
+</style>
