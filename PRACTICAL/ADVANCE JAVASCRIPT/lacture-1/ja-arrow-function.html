@@ -1,0 +1,24 @@
+<input id="name" placeholder="Enter Name">
+<p id="rst"></p>
+<button onclick="test()">run</button>
+
+<script>
+
+// syntex
+// {
+//     functionname= () =>
+//     {
+//         statments;
+//     }
+//     call a function;
+// }
+
+
+test = () =>
+{
+    var name=document.getElementById("name").value;
+    document.getElementById("rst").innerHTML= ("My name is : " +name);
+}
+// test();
+
+</script>
