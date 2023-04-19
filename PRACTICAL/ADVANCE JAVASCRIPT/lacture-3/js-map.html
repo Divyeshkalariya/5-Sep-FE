@@ -1,0 +1,47 @@
+<script>
+
+    //map function is use to filter any perticuler value from array
+
+    const employes=[
+        {
+          empname:"raj",
+          age:43,
+          salary:85000,
+          employeeid:"rj121"
+        },
+        {
+          empname:"vishal",
+          age:32,
+          salary:15000,
+          employeeid:"vs122"
+        },
+        {
+          empname:"Devansh",
+          age:25,
+          salary:65000,
+          employeeid:"dv873"
+        },
+        {
+          empname:"parixit",
+          age:32,
+          salary:35000,
+          employeeid:"px465"
+        },
+        {
+          empname:"Dipti",
+          age:24,
+          salary:43000,
+          employeeid:"dt765"
+        }
+    ]
+
+    console.log(employes);
+
+    const emps=employes.map(test);
+    function test(emp)
+    {
+        return emp.empname+" "+emp.employeeid;
+    }
+    console.log(emps);
+
+</script>
