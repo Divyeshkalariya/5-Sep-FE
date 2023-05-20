@@ -1,0 +1,99 @@
+$bodyheight:100vh;
+$bodymargin:auto;
+$bodydisplay:flex;
+$bodyjustify-content:center;
+$bodyalign-item:center;
+$bodybgimg:url('../../scss-style-app/public/assets/images/mainbg.webp');
+$bodybackground-size: 100% 100%;
+$bodybackground-repet:no-repeat;
+$transition:0.5s ease all;
+
+
+$loginpagewidth:300px;
+$loginpageheight:auto;
+$loginpagepadding:10% 15%;
+$loginpagebg:rgba(246, 246, 246, 0.434);
+$loginborder-radius:10px;
+$loginmargin-left:-14%;
+// $loginpagebox-shadow:8px 8px 10px 5px white, -8px -8px 10px 5px orangered;
+$loginpagebox-shadow:0px 0px 20px 3px rgb(49, 49, 49) ;
+$loginanimation: 1s linear 1;
+
+$formanimation:bounceIn 1s linear 1;
+
+
+$logopadding:10%;
+$logowidth:auto;
+$iconbgcolor:linear-gradient(45deg,yellow,rgb(255, 10, 145),orangered);
+
+$iconfont:30px;
+$iconpadding:5% 6%;
+$iconborder-radius:50%;
+$iconcolor:white;
+
+$headingfont:'Kanit', sans-serif;
+
+
+$inputbg:rgba(255, 255, 255, 0.338);
+$inputpadding:5% ;
+$inputborder:none;
+$inputwidth:90%;
+
+$submitwidth:100%;
+$submitcurser:pointer;
+$submitbgcolor:linear-gradient(to left,blue,orangered);
+$submitbgcolorhover:linear-gradient(to left,orangered,blue);
+$submitcolor:white;
+
+
+body{
+    // font-family: $bodyfont-family;
+    height: $bodyheight;
+    margin: $bodymargin;
+    display:$bodydisplay;
+    justify-content: $bodyjustify-content;
+    align-items: $bodyalign-item;
+    background-image: $bodybgimg;
+    // // background: $loginpagebgimg no-repeat;
+    background-size: $bodybackground-size;
+    background-repeat: $bodybackground-repet;
+}
+#loginpage{
+    width:$loginpagewidth;
+    height: $loginpageheight;
+    padding: $loginpagepadding;
+    background-color: $loginpagebg;
+    border-radius: $loginborder-radius;
+    margin-left:$loginmargin-left ;
+    box-shadow: $loginpagebox-shadow;
+}
+i{
+    background-image: $iconbgcolor;
+    font-size: $iconfont !important;
+    padding:$iconpadding;
+    border-radius: $iconborder-radius;
+    color:$iconcolor;
+    animation: $formanimation;
+}
+h1{
+    animation: $formanimation;
+    font-family: $headingfont;
+}
+input{
+    width: $inputwidth;
+    background-color:$inputbg ;
+    padding: $inputpadding;
+    border: $inputborder;
+    animation: $formanimation;
+}
+input[type="submit"]{
+    width: $submitwidth;
+    cursor: $submitcurser;
+    background-image:$submitbgcolor;
+    transition: $transition;
+    animation: $formanimation;
+}
+input[type="submit"]:hover{
+    color: $submitcolor !important;
+    background-image: $submitbgcolorhover;
+}

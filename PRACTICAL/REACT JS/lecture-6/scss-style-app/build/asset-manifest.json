@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/sass-style-app/static/css/main.9d00b751.css",
+    "main.js": "/sass-style-app/static/js/main.adb91710.js",
+    "static/js/787.758a3bd6.chunk.js": "/sass-style-app/static/js/787.758a3bd6.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/sass-style-app/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/sass-style-app/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/sass-style-app/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/sass-style-app/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/sass-style-app/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/mainbg.webp": "/sass-style-app/static/media/mainbg.90583db2e75165bba057.webp",
+    "index.html": "/sass-style-app/index.html",
+    "main.9d00b751.css.map": "/sass-style-app/static/css/main.9d00b751.css.map",
+    "main.adb91710.js.map": "/sass-style-app/static/js/main.adb91710.js.map",
+    "787.758a3bd6.chunk.js.map": "/sass-style-app/static/js/787.758a3bd6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d00b751.css",
+    "static/js/main.adb91710.js"
+  ]
+}
