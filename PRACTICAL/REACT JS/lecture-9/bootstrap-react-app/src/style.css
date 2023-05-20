@@ -1,0 +1,176 @@
+* {
+    font-family: 'Changa', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background-color: cadetblue;
+
+}
+
+.bi {
+    letter-spacing: 12px;
+}
+
+.nav {
+    width: 100%;
+    height: auto;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 2px 15px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 350px !important;
+}
+
+.card img{
+    transition: 0.3s ease-in-out;
+    overflow: hidden !important;
+}
+
+.card img:hover {
+    /* border: 1px solid teal; */
+    transform: scale(1.1) !important;
+}
+
+.card:hover hr {
+    background-color: teal !important;
+}
+
+.card a{
+    text-decoration: none;
+}
+
+.sale img {
+    height: 200px;
+}
+
+.mencloths img,
+.womencloths img,
+.childrencloths img {
+    height: 250px;
+}
+
+.loc-destinations1 {
+    max-width: 100% !important;
+    background-image: linear-gradient(rgba(255,223,32,0.5),rgba(221,121,101,0.5)),url('./components//images//top-deals//kitchenware.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s ease-in-out;
+}
+
+.loc-destinations2 {
+    max-width: 100% !important;
+    background-image: linear-gradient(rgba(255,223,32,0.5),rgba(221,121,101,0.5)),url('./components//images//top-deals//mobile-accessories.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s ease-in-out;
+}
+
+.loc-destinations3 {
+    max-width: 100% !important;
+    background-image: linear-gradient(rgba(255,223,32,0.5),rgba(221,121,101,0.5)),url('./components//images//top-deals//cloths.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s ease-in-out;
+}
+.loc-destinations1:hover,
+.loc-destinations2:hover,
+.loc-destinations3:hover{
+    background-image: linear-gradient(rgba(255,223,32,0.5),rgba(221,121,101,0.5));
+}
+
+.loc-destinations1 button,
+.loc-destinations2 button,
+.loc-destinations3 button{
+    border: 2px solid blue;
+    color: white;
+}
+
+.loc-destinations1 button:hover,
+.loc-destinations2 button:hover,
+.loc-destinations3 button:hover{
+    color: blue !important;
+}
+
+.discounted-offer {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.text-overlay {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgba(0, 0, 20, 0.4);
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#footer {
+    width: 100%;
+    height: auto;
+}
+
+.subscribe-section {
+    width: 100%;
+    height: auto;
+    background-color: #002855;
+}
+
+.bottom-footer {
+    width: 100%;
+    height: auto;
+}
+
+.footer-navbar li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 2px 5px;
+}
+
+.footer-navbar a {
+    color: gray;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+
+    .nav ul li {
+        display: block;
+    }
+    .card img{
+        height: 250px !important;
+    }
+    .sale img{
+        height: 150px !important;
+    }
+    .card:nth-child(3),
+    .card:nth-child(4){
+        margin-top: 20% !important;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    
+}
