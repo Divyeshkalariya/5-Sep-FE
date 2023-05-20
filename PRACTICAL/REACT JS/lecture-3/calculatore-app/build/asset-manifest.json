@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/calcapp.github.io/static/css/main.c514b719.css",
+    "main.js": "/calcapp.github.io/static/js/main.b69124a0.js",
+    "static/media/calculator-background-9idet8pma9adeqd5.jpg": "/calcapp.github.io/static/media/calculator-background-9idet8pma9adeqd5.0a995c449a31e333bcc9.jpg",
+    "index.html": "/calcapp.github.io/index.html",
+    "main.c514b719.css.map": "/calcapp.github.io/static/css/main.c514b719.css.map",
+    "main.b69124a0.js.map": "/calcapp.github.io/static/js/main.b69124a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c514b719.css",
+    "static/js/main.b69124a0.js"
+  ]
+}
