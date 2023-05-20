@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(228, 120, 120);
+}
+#regform{
+  width: 90%;
+  margin: auto;
+}
+.main{
+  display: flex;
+  justify-content: space-evenly;
+}
+.content1{
+  width: 35% !important;
+  padding: 3%;
+  animation:fadeInLeft 1s normal 1;
+}
+.content1 img{
+  width: 100%;
+  height: auto;
+}
+.content2{
+  width: 35% !important;
+  padding: 3%;
+  animation:fadeInRight 1s normal 1;
+}
+input[type="text"],
+input[type="email"],
+textarea
+{
+  width: 100%;
+  padding: 2%;
+  border-radius: 5px;
+  border: none;
+}
+input[type='submit']{
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 2%;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type='reset']{
+  margin-left: 2%;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 2%;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type=submit]:hover,
+input[type=reset]:hover{
+  background-color: black;
+}
+::placeholder{
+  color: red !important;
+}
+
+#address{
+  width: 80%;
+  margin: auto;
+  animation:fadeIn 2s normal 1 !important;
+}
+#address b{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#address a{
+  text-decoration: none;
+  color: black;
+}
+#address a:hover{
+  color: rgba(0, 0, 255, 0.679);
+}

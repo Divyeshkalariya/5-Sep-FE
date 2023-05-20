@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/external-style.github.io/static/css/main.00d97be7.css",
+    "main.js": "/external-style.github.io/static/js/main.eb5af802.js",
+    "static/js/787.53d44182.chunk.js": "/external-style.github.io/static/js/787.53d44182.chunk.js",
+    "static/media/application.gif": "/external-style.github.io/static/media/application.7c55de504956e6095680.gif",
+    "index.html": "/external-style.github.io/index.html",
+    "main.00d97be7.css.map": "/external-style.github.io/static/css/main.00d97be7.css.map",
+    "main.eb5af802.js.map": "/external-style.github.io/static/js/main.eb5af802.js.map",
+    "787.53d44182.chunk.js.map": "/external-style.github.io/static/js/787.53d44182.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00d97be7.css",
+    "static/js/main.eb5af802.js"
+  ]
+}
