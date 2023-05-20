@@ -1,0 +1,20 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items : center;
+    background-color: #f39f46 !important;
+}
+
+h2{
+    width: 200px;
+    text-align: center;
+}
+
+button{
+    color:  white;
+}
+ 
+button:hover b{
+    color:  #f39f46 !important;
+}
