@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/bootstrap.github.io/static/css/main.c2cab247.css",
+    "main.js": "/bootstrap.github.io/static/js/main.53bb0699.js",
+    "static/js/787.db4c9050.chunk.js": "/bootstrap.github.io/static/js/787.db4c9050.chunk.js",
+    "static/media/Netflix.png": "/bootstrap.github.io/static/media/Netflix.303904f75553a51bbf31.png",
+    "static/media/Amazon-Prime.webp": "/bootstrap.github.io/static/media/Amazon-Prime.f8505986dd99cd94167f.webp",
+    "index.html": "/bootstrap.github.io/index.html",
+    "main.c2cab247.css.map": "/bootstrap.github.io/static/css/main.c2cab247.css.map",
+    "main.53bb0699.js.map": "/bootstrap.github.io/static/js/main.53bb0699.js.map",
+    "787.db4c9050.chunk.js.map": "/bootstrap.github.io/static/js/787.db4c9050.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.53bb0699.js"
+  ]
+}
