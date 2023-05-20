@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>index</title>
+    <meta name='viewport' content='width=device-width, 
+    initial-scale=1'>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="css/productdetails.css">
+    
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- xzoom plugin -->
+    <link rel="stylesheet" href="css/zoom plugin/normalize.css">
+    <!-- <link rel="stylesheet" href="css/zoom plugin/foundation.css"> -->
+    <link rel="stylesheet" href="css/zoom plugin/demo.css">
+    <script src="js/zoom plugin/jquery.js"></script>
+    <script src="js/zoom plugin/modernizr.js"></script>
+    <script src="js/zoom plugin/xzoom.min.js"></script>
+    <link rel="stylesheet" href="css/zoom plugin/xzoom.css">
+    <link rel="stylesheet" href="css/zoom plugin/magnific-popup.css">
+    <link rel="stylesheet" href="css/zoom plugin/jquery.fancybox.css">
+    <script src="js/zoom plugin/magnific-popup.js"></script>
+    <script src="js/zoom plugin/jquery.fancybox.js"></script>
+    <script src="js/zoom plugin/jquery.hammer.min.js"></script>
+</head>
+<body>
+  <!-- header -->
+    <div class="container-fluid bg-light p-3">
+        <div class="row">
+            <div class="col-md-3 col-sm-12 mt-3 header-call">
+                <b class="mt-0">Call us :<i class="bi bi-telephone"></i> (+91)-9879868757</b>
+            </div>
+            <div class="col-md-5 col-sm-12 header-searchbar">
+                <div class="input-group mt-2">
+                    <input type="text" name="search" placeholder="search here" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 header-icons">
+               <b><i class="bi bi-cart"></i> <span class="badge badge-lg bg-danger">0</span></b>       
+               <button type="button" class="ms-3 btn btn-sm btn-danger add-users">Add Users <i class="bi bi-person-add">0</i></button>
+               <span class="m-3 p-3 mt-3 sociam-media-icon">
+               <i class="bi bi-facebook m-1 mt-5"></i>
+               <i class="bi bi-instagram"></i>
+               <i class="bi bi-twitter"></i>
+               <i class="bi bi-youtube"></i> </b>
+               </span>
+            </div>
+        </div>
+    </div>
+
+<!-- navbar dropdown toggler -->
+<nav class="navbar nav navbar-expand-md shadow">
+
+    <!-- logo -->
+    <a href="#" class="navbar-brand logo"><img src="images/lion-removebg-preview.png" class="img-fluid w-25 ms-5"></a>
+
+    <!-- toggler button add here -->
+    <button type="button" class="navbar-toggler p-3" data-bs-toggle="collapse" data-bs-target="#togg-btn">
+    <i class="bi bi-grid-3x3-gap navbar-toggler-icon"></i>
+    </button>
+    
+    <!-- navbar main start here -->
+    <div class="collapse navbar-collapse" id="togg-btn">
+        <ul class="navbar-link float-end">
+            <li><a href="#"> Home</a></li>
+            <li><a href="#">our team </a></li>
+       
+            <!-- dropdown -->
+            <li class="dropdown"><a class="dropdown-toggle" data-bs-toggle="dropdown" href="#">Services </a>
+                <ul class="dropdown-menu bg-light">
+                    <li class="nav-item"><a href="#" class="nav-link">Free Home delivery</a></li>
+                    <li  class="nav-item"><a href="#" class="nav-link">7 days replacement policy</a></li>
+                    <li  class="nav-item"><a href="#" class="nav-link">24 X 7 service</a></li>
+                    <li  class="nav-item"><a href="#" class="nav-link">Supper coin</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-bs-toggle="dropdown" href="#">products</a>
+                <ul class="dropdown-menu bg-light">
+                    <li class="nav-item"><a href="#" class="nav-link">kid's products</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">men's products</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-bs-toggle="dropdown" href="#">Account </a>
+                <ul class="dropdown-menu bg-light dropdown-register">
+                    <li class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#login">Sign In!</a></li>
+                    <li  class="nav-item"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#register">Sign Up!</a></li>
+                </ul>
+            </li>    
+            <li><a href="#">Contact</a></li>
+        </ul>
+ 
+     </div>
+</nav>
+<!-- sign in modal -->
+     <div class="modal fade" id="login" role="dialog">
+        <div class="modal-dialog bg-gradient " style="min-width: 60% !important;" >
+            <div class="modal-contet p-0 mt-md-4">
+                <div class="row ">
+                    <div class=" bg-primary col-md-5 col-sm-5 text-white p-5">
+                        <h1>Sign In</h1>
+                        <h4 class="mt-4">Get access to your Orders, Wishlist and Recommendations</h4>
+                        <img src="images/sign_in-up_image-removebg-preview.png" class="img-fluid mt-3 pb-3">
+                    </div>
+                    <div class="col-md-7 col-sm-7 bg-white ">
+                        <h1 class="m-3">Login form
+                            <button type="button" class="btn btn-outline-primary btn-sm float-end" data-bs-dismiss="modal">&times;</button>
+                        </h1>
+                        <hr class="border border-2 border-dark w-50 bg-dark m-3 signin-hr">
+                        <form method="post" class="
+                        p-3">
+                            <div class="input-group mt-3">
+                                <input type="text" name="email" placeholder="Email *" required
+                                class="form-control">
+                            </div>
+
+                            <div class="input-group mt-3">
+                                <input type="text" name="password" required placeholder="password *"
+                                class="form-control">
+                            </div>
+
+                            <div class="input-group mt-5">
+                                <input type="submit" name="login" value="Sign In"
+                                class="btn btn-sm btn-primary text-white">
+                                <a href="#" class="ms-4">Forget Password ?</a>
+                            </div>
+
+                            <div class="input-group mt-5">
+                                Don't have an account ? 
+                                <a href="#" class="ms-2" data-bs-toggle="modal" data-bs-target="#register">Sign Up here ?</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- sign up modal -->
+    <div class="modal fade" id="register" role="dialog">
+        <div class="modal-dialog" style="min-width: 60% !important;">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="bg-primary col-md-5 col-sm-5 text-white first-container">
+                        <h1 class="mt-3 ms-3 signup-heading">Creat account</h1>
+                        <h5 class="mt-1 ms-3 text-justify">Get access to your Orders, Wishlist and Recommendations.</h5>
+                        <ul class="navbar-link">
+                            <li><a href="#" class="text-white">
+                                <h3>Why Join Us!</h3>
+                            </a></li>
+                            <li><a href="#" class="text-white"><i class="bi bi-telephone-forward"></i> 24 x 7 service</a></li>
+                            <li><a href="#" class="text-white"><i class="bi bi-book"></i> Free demo</a></li>
+                            <li><a href="#" class="text-white"><i class="bi bi-cart-check"></i> Return policy</a></li>
+                            <li><a href="#" class="text-white"><i class="bi bi-currency-euro"></i> Online payments</a></li>
+                        </ul>
+                        <img src="images/sign_in-up_image-removebg-preview.png" class="img-fluid mt-3">
+                    </div>
+
+                    <div class="col-md-7 col-sm-7 p-3">
+                        <h2 class="ms-1">Register form <button type="button"
+                            class="float-end btn-sm me-3 btn-outline-primary" data-bs-dismiss="modal">&times;</button></h2>
+                        <hr class="border border-2 border-dark me-3 w-50 ms-1 signup-hr">
+                        <form method="post" class="p-2">
+                            <div class="input-group mt-4">
+                                <input type="file" name="img" placeholder="Upload *" required class="form-control">
+                            </div>
+
+                            <div class="row">
+                                <div class="mt-3 col-md-6">
+                                    <input type="text"
+                                    name="fname" placeholder="FirstName *" required class="form-control">
+                                </div>
+                                <div class="mt-3 col-md-6">
+                                    <input type="text"
+                                    name="lname" placeholder="LastName *" required class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="input-group mt-4">
+                                <input type="text" name="email" placeholder="Email *" required class="form-control">
+                            </div>
+
+                            <div class="input-group mt-4">
+                                <input type="text" name="password" placeholder="Password *" required class="form-control">
+                            </div>
+
+                            <div class="input-group mt-4">
+                                <input type="submit" value="Sigh Up" class="btn btn-sm btn-primary text-white">
+
+                                <input type="reset" name="reset" value="Reset" class="btn btn-sm btn-danger text-white ms-3">
+                            </div>
+
+                            <div class="input-group mt-4">
+                                Already have an account? <a href="#" class="ms-2" data-bs-toggle="modal" data-bs-target="#login
+                                ">Log in here ?</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- product details section -->
+    <h5 class="m-5">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Products</li>
+              <li class="breadcrumb-item active" aria-current="page">Productdetails</li>
+            </ol>
+          </nav>
+    </h5>
+    <div class="container p-2 shadow">
+        <div class="row">
+            <div class="col-5">
+                <!-- magnific start -->
+                <div class="row">
+                    <div class="large-5 column">
+                        <div class="xzoom-container">
+                            <img class="xzoom5 img-fluid" id="xzoom-magnific" src="images/kids-shose.webp" xoriginal="images/kids-shose.webp" />
+                            <div class="xzoom-thumbs">
+                                <a href="images/kids-shose1.webp"><img class="xzoom-gallery5" width="80" src="images/kids-shose1.webp"  xpreview="images/kids-shose1.webp"></a>
+                                <a href="images/kids-shose2.webp"><img class="xzoom-gallery5" width="80" src="images/kids-shose2.webp"></a>
+                                <a href="images/kids-shose3.webp"><img class="xzoom-gallery5" width="80" src="images/kids-shose3.webp"></a>
+                                <a href="images/kids-shose4.webp"><img class="xzoom-gallery5" width="80" src="images/kids-shose4.webp"></a>
+                            </div>
+                        </div>        
+                    </div>
+                    <div class="large-7 column"></div>
+                    </div>
+                <!-- magnific end -->
+            </div>
+            <div class="col-7">
+                <address>
+                    <h2 class="text-primary">kid's Shose</h2>
+                    <h3>Rs. <del>4500</del> 2250</h3>
+                    <label for="input">Qty :</label>
+                    <input type="number" min="1" max="10" value="1"> <br> <br>
+                    <details>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, aliquid reprehenderit. Blanditiis quibusdam cumque eos architecto a facilis, fugiat veniam natus assumenda delectus vero voluptate quasi numquam iste molestiae amet.</details> <br>
+                    <button class="btn btn-sm bg-success text-white">Continue shooping</button>
+                    <button class="btn btn-sm bg-danger text-white">add to cart</button>
+                </address>
+            </div>
+        </div>
+    </div>
+
+</body>
