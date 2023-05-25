@@ -1,0 +1,130 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* layout style */
+nav ul li{
+  margin-top: 1.5%;
+  display:  inline-block;
+  padding: 2% 3%;
+  font-size: larger;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover{
+  color: #e4a11b;
+}
+nav ul li a:active{
+  color: #e4a11b;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+  .logo{
+    font-size: medium;
+  }
+  nav ul li{
+    margin-top: 8%;
+    font-size: small;
+  }
+}
+@media only screen and (min-width:480px) and (max-width:576px) {
+  .logo h1{
+    font-size: large;
+  }
+  nav ul li{
+    margin-top: 5%;
+  }
+}
+@media only screen and (min-width:480px) and (max-width:576px) {
+  .logo h1{
+    font-size: large;
+  }
+  nav ul li{
+    margin-top: 5%;
+  }
+}
+@media only screen and (min-width:576px) and (max-width:768px) {
+  nav ul li{
+    margin-top: 4%;
+  }
+}
+
+
+/* homepage style0 */
+
+
+/* Blogpage style */
+#blog .card img{
+  height: 300px;
+  width: 100%;
+}
+#blog .card p{
+  text-align: justify;
+}
+
+@media only screen and (min-width:320px) and (max-width:576px) {
+  #blog .card img{
+    height: 200px;
+  }
+}
+
+
+/* aboutus page style */
+#aboutus .abouthead{
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#aboutus .abouthead h1{
+  font-size: 6rem;
+  transform: rotate(-90deg);
+}
+#aboutus .aboutcontant{
+  height: 450px;
+  background: url("./assets/images/about-us-page/photographer-holding-camera.avif") no-repeat;
+  background-size: 100% 100%;
+}
+#aboutus .card{
+  top: 15%;
+  left: 60%; 
+  text-align: justify; 
+}
+
+@media only screen and (min-width:576px) and (max-width:992px) {
+  #aboutus .abouthead{
+    height: 150px !important;
+  }
+  #aboutus .abouthead h1{
+    font-size: 3rem;
+    transform: rotate(0deg) !important;
+  } 
+  #aboutus .card{
+    width: 80% !important;
+    left: 10%;
+    top:50%;
+  }
+}
+@media only screen and (min-width:320px) and (max-width:576px) {
+  #aboutus .abouthead{
+    height: 100px !important;
+  }
+  #aboutus .abouthead h1{
+    font-size: 3rem;
+    transform: rotate(0deg) !important;
+  } 
+  #aboutus .aboutcontant{
+    height: 350px;
+  }
+  #aboutus .card{
+    width: 80% !important;
+    left: 10%;
+    top:50%;
+  }
+}
+
+/* error page style */
