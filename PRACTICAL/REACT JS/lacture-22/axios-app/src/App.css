@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.header{
+  height: 18vh;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  z-index: 1000;
+  background-color: rgb(55, 235, 241);
+}
+.category{
+  position:fixed !important;
+  top: 7rem !important;
+  height: 85vh;
+  background-color: rgb(55, 235, 241);
+}
+.category ul li{
+  list-style-type:circle;
+}
+.content{
+  position: absolute;
+  right: 0;
+  top: 20%;
+}
+.card-header img{
+  height: 200px !important;
+  mix-blend-mode:darken;
+}
+.card-body h4{
+  font-size: 1rem;
+}
