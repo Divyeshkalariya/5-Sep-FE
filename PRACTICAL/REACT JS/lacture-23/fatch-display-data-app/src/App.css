@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+/* HEADER PAGE STYLE */
+#header{
+  position:fixed !important;
+  width: 100% !important;
+  z-index: 1000;
+}
+.brand{
+  font-size: 3rem;
+}
+
+/* PRODUCT PAGE STYLE */
+#product .category{
+  top: 5vh;
+  position:fixed !important;
+  height: 100% !important;
+  background-color: rgb(55, 235, 241);
+}
+#product .category ul li{
+  list-style-type:circle;
+}
+
+#product .content{
+  position: absolute;
+  right: 0;
+  top:8vh;
+}
+#product .card-header img{
+  height: 200px !important;
+  mix-blend-mode:darken;
+}
+#product .card-body h4{
+  font-size: 1rem;
+}

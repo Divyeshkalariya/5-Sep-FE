@@ -1,0 +1,99 @@
+{
+  "mobiledata": [
+    {
+      "id": 1,
+      "name": "Radmi note 11 pro + 5G",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/c/a/f/-original-imagcqrqhm7ur5c7.jpeg?q=70",
+      "offerprice": "20,999",
+      "price": "26,999",
+      "off": "22% off",
+      "description": "If you need to pick up the pace of your work and stay entertained on the go, the REDMI Note 11 Pro Plus 5G Smartphone is a must-have. Its MIUI 13 feature helps you to smoothly and easily navigate and access various features. Also, this smartphone’s pro-grade camera of up to 108 MP lets you capture detailed and wide pictures as per your needs. Furthermore, with a large screen of up to 16.94 cm (6.7), this smartphone lets you enjoy a big-screen experience while working, communicating, and watching movies."
+    },
+    {
+      "id": 2,
+      "name": "APPLE i phone 13",
+      "image": "https://rukminim1.flixcart.com/image/416/416/ktketu80/mobile/a/z/g/iphone-13-mlpg3hn-a-apple-original-imag6vpyxhzdccrc.jpeg?q=70",
+      "offerprice": "58,499",
+      "price": "69,999",
+      "off": "16% off",
+      "description": "iPhone 13. boasts an advanced dual-camera system that allows you to click mesmerising pictures with immaculate clarity. Furthermore, the lightning-fast A15 Bionic chip allows for seamless multitasking, elevating your performance to a new dimension. A big leap in battery life, a durable design, and a bright Super Retina XDR display facilitate boosting your user experience."
+    },
+    {
+      "id": 3,
+      "name": "SAMSUNG Galaxy S23 Ultra 5G",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/2/s/7/-original-imagmg6gktts6sfy.jpeg?q=70",
+      "offerprice": "1,24,999",
+      "price": "1,49,999",
+      "off": "16% off",
+      "description": " Get a smartphone for yourself that can detect your moods and react appropriately. The Samsung Galaxy Ultra's potent processor and advanced camera sensor can handle low light and noise reduction. The phone's Snapdragon 8 Gen 2 processor, which also provides a long battery life to carry you through even the busiest days, also enables quick gaming and video streaming. You can also launch Expert RAW to take high-resolution RAW photos that are vivid and packed with information. Moreover, Dynamic AMOLED 2X offers clear, brilliant details in both bright and low-light conditions. Additionally, to smooth up gaming and save power, the refresh rate is automatically optimised with 120 Hz technology."
+    },
+    {
+      "id": 4,
+      "name": "realme 11 Pro+ 5G",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/0/x/v/-original-imagqadf2awzzmyf.jpeg?q=70",
+      "offerprice": "27,499",
+      "price": "29,999",
+      "off": "6% off",
+      "description": "You can capture your memories using the 200 MO OIS SuperZoom camera featured in the realme 11 Pro+ 5G smartphone. The 120 Hz of curved vision display enables you with top-notch viewing experience. Equipped with a 100 W SUPERVOOC charger, this phone charges your phone in about 26 minutes. Powered by the Dimensity 7050 5G chipset, this smartphone offers smooth and efficient performance. Thanks to the 5000 mAh battery, you can go all day long without having to recharge your phone over and over again. This smartphone comes with 12 GB of RAM with an extra 12 GB of dynamic RAM for fast and smooth operations. With the 256 GB of storage, you can store all your data in this smartphone easily."
+    },
+    {
+      "id": 5,
+      "name": "MOTOROLA Edge 40",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/b/q/6/edge-40-pay40028in-motorola-original-imagpqzdnhrgvhj7.jpeg?q=70",
+      "offerprice": "29,499",
+      "price": "34,999",
+      "off": "14% off",
+      "description": "iPhone 13. boasts an advanced dual-camera system that allows you to click mesmerising pictures with immaculate clarity. Furthermore, the lightning-fast A15 Bionic chip allows for seamless multitasking, elevating your performance to a new dimension. A big leap in battery life, a durable design, and a bright Super Retina XDR display facilitate boosting your user experience."
+    },
+    {
+      "id": 6,
+      "name": "Google Pixel 7a ",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/v/f/d/-original-imagpgx4g2m63gfh.jpeg?q=70",
+      "price": "43,999",
+      "off": "No offer avalable",
+      "description": "Experience the simplicity and seamless transitions with the Google Pixel 7a, which is loaded with a variety of incredible features. The Tensor G2 processor, designed by Google, boosts the Pixel 7a's speed, effectiveness, and security. It's the same chip that's in Pixel 7 and Pixel 7 Pro. Furthermore, With a dual rear camera system and Google Tensor G2's advanced image processing, Pixel 7a lets you create perfect photos every time. It's easy to take amazing pictures in low light, or fix your blurry photos and remove distractions with a few taps in Google Photos. Moreover, the Pixel 7a camera includes Super Res Zoom, so that you can get up close without an extra telephoto lens."
+    }
+  ],
+  "Contactusdata": [
+    {
+      "firstname": "divyesh",
+      "lastname": "patel",
+      "email": "kd18@gmail.com",
+      "mobile": "9478963210",
+      "message": "discuss project",
+      "id": 1
+    },
+    {
+      "firstname": "riya",
+      "lastname": "patel",
+      "email": "riyu18@gmail.com",
+      "mobile": "8795421352",
+      "message": "lets meet to discuss some points in project ",
+      "id": 2
+    },
+    {
+      "firstname": "rizvan",
+      "lastname": "Nareja",
+      "email": "rizu32@gmail.com",
+      "mobile": "9514236870",
+      "message": "Can we meet to take about expand our bussiness",
+      "id": 3
+    },
+    {
+      "firstname": "disha",
+      "lastname": "ghodasara",
+      "email": "dishapatel43@gmail.com",
+      "mobile": "8527419630",
+      "message": "hellow sir , i have discuss some idea with you for our projects",
+      "id": 4
+    },
+    {
+      "firstname": "raj",
+      "lastname": "chavla",
+      "email": "rajchavla43@gmail.com",
+      "mobile": "9123456780",
+      "message": "take",
+      "id": 5
+    }
+  ]
+}

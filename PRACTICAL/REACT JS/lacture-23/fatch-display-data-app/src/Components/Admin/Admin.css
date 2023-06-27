@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* ADMINSIDEBAR STYLE */
+#adminsidebar {
+    width: 20%;
+    height: 100vh !important;
+}
+#adminsidebar ul li a:hover{
+    color: white;
+}
+
+
+/* ADDCUSTOMER STYLE */
+#addContact{
+    width: 80%;
+}
+#addContact table {
+    width: 100%;
+    text-align: center;
+    overflow: hidden !important;
+}
+#addContact table th,
+#addContact table td {
+    padding: 0.5rem;
+}
+#addContact th{
+    background-color: black;
+}
+#addContact tr{
+    transition: 0.1s ease;
+}
+#addContact tr:nth-child(even){
+    background-color: darkgrey;
+}
