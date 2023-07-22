@@ -12,5 +12,7 @@ table tbody tr{
 }
 table tr td:nth-child(1){
   width: 50%;
-
+}
+.form-error{
+  color: red;
 }
